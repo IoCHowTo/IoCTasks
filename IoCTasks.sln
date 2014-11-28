@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_IoCWithoutUnity", "01_IoCWithoutUnity\01_IoCWithoutUnity.csproj", "{BCE9FF7C-02A6-4A62-81B8-12E40A01FF0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCE9FF7C-02A6-4A62-81B8-12E40A01FF0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE9FF7C-02A6-4A62-81B8-12E40A01FF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE9FF7C-02A6-4A62-81B8-12E40A01FF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE9FF7C-02A6-4A62-81B8-12E40A01FF0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
