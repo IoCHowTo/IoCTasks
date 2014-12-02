@@ -7,7 +7,9 @@
   * Inversion Of Control principle
   * Microsoft Unity IoC Container 
   * Differences between polymorphism and dependency injection
-* Sample solutions for all tasks will be provided separately
+* Sample solutions for all tasks are provided separately for your reference
+  * At first try to resolve tasks on your own. 
+  * If you will get stuck feel free use appropriate sample solution to unblock yourself.
 
 ## Sources
 
