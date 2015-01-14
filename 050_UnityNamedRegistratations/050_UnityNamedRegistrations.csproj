@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{913D3B47-D63D-4791-B96A-4303D3CB420C}</ProjectGuid>
+    <ProjectGuid>{35C2405C-CC59-47AF-943C-5EBD7A82ECB5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IoCWithUnity</RootNamespace>
-    <AssemblyName>IoCWithUnity</AssemblyName>
+    <RootNamespace>UnityNamedRegistratations</RootNamespace>
+    <AssemblyName>UnityNamedRegistratations</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
