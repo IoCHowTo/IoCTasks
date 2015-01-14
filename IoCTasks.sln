@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "040_UnityLifetimeManagement
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "050_UnityNamedRegistrations", "050_UnityNamedRegistratations\050_UnityNamedRegistrations.csproj", "{35C2405C-CC59-47AF-943C-5EBD7A82ECB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "070_UnityRecursiveRegistrationIssue", "070_UnityRecursiveRegistrationIssue\070_UnityRecursiveRegistrationIssue.csproj", "{B71FA020-CBBB-4DC6-8752-3D9816548EE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{35C2405C-CC59-47AF-943C-5EBD7A82ECB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35C2405C-CC59-47AF-943C-5EBD7A82ECB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35C2405C-CC59-47AF-943C-5EBD7A82ECB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71FA020-CBBB-4DC6-8752-3D9816548EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71FA020-CBBB-4DC6-8752-3D9816548EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71FA020-CBBB-4DC6-8752-3D9816548EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71FA020-CBBB-4DC6-8752-3D9816548EE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
