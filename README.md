@@ -2,7 +2,7 @@
 
 ## Motivation
 
-* Provide help to guys on team to understand the topic
+* Provide help to guys on the team to understand the topic
 * Provide a set of tasks which will allow to understand the basics, such as:
   * Inversion Of Control principle
   * Microsoft Unity IoC Container 
@@ -19,3 +19,9 @@
   * [MSDN article](http://msdn.microsoft.com/en-us/library/ff921087.aspx)
   * Two CodeProject articles, [DI vs IoC](http://www.codeproject.com/Articles/592372/Dependency-Injection-DI-vs-Inversion-of-Control-IO) and ]IoC with examples](http://www.codeproject.com/Articles/380748/Inversion-of-Control-Overview-with-Examples)
   * two PluralSight courses, [one dedicated to IoC in general](http://www.pluralsight.com/courses/inversion-of-control) and [the other in regards of ASP.NET MVC](http://www.pluralsight.com/courses/ioc-aspdotnet-mvc4)
+
+## How to use projects
+
+* Each project is a prepared coding task 
+* Each project contains README.md file which provides brief summary of the topic and goals for the task
+* 
