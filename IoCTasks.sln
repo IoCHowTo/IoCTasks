@@ -28,6 +28,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100_UnityBuildUpIssue", "10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "110_UnityResolutionOverrides", "110_UnityResolutionOverrides\110_UnityResolutionOverrides.csproj", "{73933013-B648-430F-A1CD-46035743CDBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "060_UnityInjectionTypes", "060_UnityInjectionTypes\060_UnityInjectionTypes.csproj", "{8138D2A9-1125-4B1F-AA38-324A66286691}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{331F28F0-AAED-4977-B58A-8F5991FAB70F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		CONTRIBUTING.md = CONTRIBUTING.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +80,10 @@ Global
 		{73933013-B648-430F-A1CD-46035743CDBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73933013-B648-430F-A1CD-46035743CDBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73933013-B648-430F-A1CD-46035743CDBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8138D2A9-1125-4B1F-AA38-324A66286691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8138D2A9-1125-4B1F-AA38-324A66286691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8138D2A9-1125-4B1F-AA38-324A66286691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8138D2A9-1125-4B1F-AA38-324A66286691}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
