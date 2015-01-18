@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "070_UnityRecursiveRegistrat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "080_UnityBuildUp", "080_UnityBuildUp\080_UnityBuildUp.csproj", "{92F3124A-D830-43AE-A8C7-A6B86F3134A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100_UnityBuildUpIssue", "100_UnityBuildUpIssue\100_UnityBuildUpIssue.csproj", "{3FCCED90-9F3B-43BF-9F65-3FDBC992D61E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{92F3124A-D830-43AE-A8C7-A6B86F3134A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92F3124A-D830-43AE-A8C7-A6B86F3134A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92F3124A-D830-43AE-A8C7-A6B86F3134A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FCCED90-9F3B-43BF-9F65-3FDBC992D61E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCCED90-9F3B-43BF-9F65-3FDBC992D61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCCED90-9F3B-43BF-9F65-3FDBC992D61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCCED90-9F3B-43BF-9F65-3FDBC992D61E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
