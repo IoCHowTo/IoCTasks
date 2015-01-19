@@ -15,7 +15,7 @@ namespace UnityBuildUp
         public static void SetupContainer(IUnityContainer unityContainer)
         {
             unityContainer
-                .RegisterType<IConsoleResultWriter, ConsoleResultWriter>()
+                .RegisterType<IConsoleResultWriter, ResultWriters>()
                 .RegisterType<ICalculator, Calculator>()
                 .RegisterType<IOperationFactory, OperationFactory>()
                 .RegisterType<IOperationPlus, Plus>();

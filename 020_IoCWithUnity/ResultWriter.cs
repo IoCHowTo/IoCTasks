@@ -7,8 +7,6 @@ namespace IoCWithUnity
         void WriteResult(int value);
     }
 
-    /// <summary>
-    /// </summary>
     public class ConsoleResultWriter : IResultWriter
     {
         public void WriteResult(int value)

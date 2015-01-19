@@ -9,8 +9,6 @@ namespace UnityNamedRegistratations
         void WriteResult(int value);
     }
 
-    /// <summary>
-    /// </summary>
     public class ConsoleResultWriter : IResultWriter
     {
         public void WriteResult(int value)
@@ -21,23 +19,23 @@ namespace UnityNamedRegistratations
 
     public class FileResultWriter : IResultWriter, IDisposable
     {
-        private readonly StreamWriter m_Output;
+        private readonly StreamWriter _output;
 
         public FileResultWriter()
         {
-            m_Output = File.CreateText("output.txt");
+            _output = File.CreateText("output.txt");
         }
 
         public void WriteResult(int value)
         {
-            m_Output.WriteLine(value);
+            _output.WriteLine(value);
         }
 
         public void Dispose()
         {
-            if (m_Output != null)
+            if (_output != null)
             {
-                m_Output.Dispose();
+                _output.Dispose();
             }
 
             GC.SuppressFinalize(this);

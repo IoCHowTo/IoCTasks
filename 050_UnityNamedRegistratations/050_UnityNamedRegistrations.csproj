@@ -57,7 +57,7 @@
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="Calculator.cs" />
-    <Compile Include="ConsoleResultWriter.cs" />
+    <Compile Include="ResultWriters.cs" />
     <Compile Include="OperationFactory.cs" />
     <Compile Include="Operations.cs" />
     <Compile Include="Program.cs" />

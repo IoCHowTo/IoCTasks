@@ -12,7 +12,7 @@ namespace UnityInjectionTypes
 
     public class Calculator : ICalculator
     {
-        private readonly IOperationFactory m_Factory;
+        private readonly IOperationFactory _factory;
 
         /// <summary>
         /// What we are performing here is basically a constructor dependency injection.
@@ -22,12 +22,12 @@ namespace UnityInjectionTypes
         /// <param name="factory"></param>
         public Calculator(IOperationFactory factory)
         {
-            m_Factory = factory;
+            _factory = factory;
         }
 
         /// <summary>
         /// Implementation of this method has basically no significance from
-        /// IoC point of view, except for using <see cref="m_Factory"/> to
+        /// IoC point of view, except for using <see cref="_factory"/> to
         /// create instances of various numeric operations.
         /// </summary>
         public int Evaluate(IEnumerable<string> expression)
@@ -53,7 +53,7 @@ namespace UnityInjectionTypes
                     continue;
                 }
 
-                operations.Push(m_Factory.Create(token));
+                operations.Push(_factory.Create(token));
                 expectingConstant = true;
             }
 

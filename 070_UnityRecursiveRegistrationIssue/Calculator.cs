@@ -11,16 +11,16 @@ namespace UnityRecursiveRegistrationIssue
 
     public class Calculator : ICalculator
     {
-        private readonly IOperationFactory m_Factory;
+        private readonly IOperationFactory _factory;
 
         public Calculator(IOperationFactory factory)
         {
-            m_Factory = factory;
+            _factory = factory;
         }
 
         /// <summary>
         /// Implementation of this method has basically no significance from
-        /// IoC point of view, except for using <see cref="m_Factory"/> to
+        /// IoC point of view, except for using <see cref="_factory"/> to
         /// create instances of various numeric operations.
         /// </summary>
         public int Evaluate(IEnumerable<string> expression)
@@ -46,7 +46,7 @@ namespace UnityRecursiveRegistrationIssue
                     continue;
                 }
 
-                operations.Push(m_Factory.Create(token));
+                operations.Push(_factory.Create(token));
                 expectingConstant = true;
             }
 

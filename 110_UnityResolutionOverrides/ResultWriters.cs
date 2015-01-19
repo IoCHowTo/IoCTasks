@@ -13,9 +13,7 @@ namespace UnityResolutionOverrides
         void WriteResult(int value);
     }
 
-    /// <summary>
-    /// </summary>
-    public class ConsoleResultWriter : IConsoleResultWriter
+    public class ConsoleResultWriters : IConsoleResultWriter
     {
         public void WriteResult(int value)
         {

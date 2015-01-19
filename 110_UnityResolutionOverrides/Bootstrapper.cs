@@ -15,7 +15,7 @@ namespace UnityResolutionOverrides
         public static void SetupContainer(IUnityContainer unityContainer)
         {
             unityContainer
-                .RegisterType<IConsoleResultWriter, ConsoleResultWriter>()
+                .RegisterType<IConsoleResultWriter, ConsoleResultWriters>()
                 .RegisterType<IConsoleAndFileResultWriter, ConsoleAndFileResultWriter>()
                 .RegisterType<ICalculator, Calculator>()
                 .RegisterType<IOperationFactory, OperationFactory>()

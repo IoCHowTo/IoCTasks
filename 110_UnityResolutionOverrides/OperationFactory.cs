@@ -10,11 +10,11 @@ namespace UnityResolutionOverrides
 
     public class OperationFactory : IOperationFactory
     {
-        private readonly IUnityContainer m_Container;
+        private readonly IUnityContainer _container;
 
         public OperationFactory(IUnityContainer container)
         {
-            m_Container = container;
+            _container = container;
         }
 
         public IOperation Create(string token)
@@ -22,9 +22,9 @@ namespace UnityResolutionOverrides
             switch (token)
             {
                 case "+":
-                    return m_Container.Resolve<IOperationPlus>();
+                    return _container.Resolve<IOperationPlus>();
                 case "-":
-                    // return m_Container.Resolve<IOperationMinus>();
+                    // return _container.Resolve<IOperationMinus>();
                 default:
                     throw new NotImplementedException();
             }

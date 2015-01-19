@@ -6,16 +6,16 @@ namespace IoCWithoutUnity
 {
     public class Calculator
     {
-        private readonly OperationFactory m_Factory;
+        private readonly OperationFactory _factory;
 
         public Calculator()
         {
-            m_Factory = new OperationFactory();
+            _factory = new OperationFactory();
         }
 
         /// <summary>
         /// Implementation of this method has basically no significance from
-        /// IoC point of view, except for using <see cref="m_Factory"/> to
+        /// IoC point of view, except for using <see cref="_factory"/> to
         /// create instances of various numeric operations.
         /// </summary>
         public int Evaluate(IEnumerable<string> expression)
@@ -41,7 +41,7 @@ namespace IoCWithoutUnity
                     continue;
                 }
 
-                operations.Push(m_Factory.Create(token));
+                operations.Push(_factory.Create(token));
                 expectingConstant = true;
             }
 
