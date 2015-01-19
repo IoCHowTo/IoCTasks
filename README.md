@@ -19,9 +19,11 @@
   * [MSDN article](http://msdn.microsoft.com/en-us/library/ff921087.aspx)
   * Two CodeProject articles, [DI vs IoC](http://www.codeproject.com/Articles/592372/Dependency-Injection-DI-vs-Inversion-of-Control-IO) and ]IoC with examples](http://www.codeproject.com/Articles/380748/Inversion-of-Control-Overview-with-Examples)
   * two PluralSight courses, [one dedicated to IoC in general](http://www.pluralsight.com/courses/inversion-of-control) and [the other in regards of ASP.NET MVC](http://www.pluralsight.com/courses/ioc-aspdotnet-mvc4)
+* Microsoft Unity reference guide on MSDN
+  * [MSDN](http://msdn.microsoft.com/en-us/library/dn178463%28v=pandp.30%29.aspx)
 
 ## How to use projects
 
 * Each project is a prepared coding task 
 * Each project contains README.md file which provides brief summary of the topic and goals for the task
-* 
+* For additional information look into the Microsoft Unity documentation (goal of this project is not to provide reference guide to MS Unity API)
