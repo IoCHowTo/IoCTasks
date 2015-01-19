@@ -28,4 +28,4 @@
 * Each project contains README.md file which provides brief summary of the topic and goals for the task.
 * For additional information look into the Microsoft Unity documentation (goal of this project is not to provide reference guide to MS Unity API).
 * Simply clone this project (or download it as a .ZIP file) and attempt to solve all individual tasks.
-  * If you need some help just reference to solutions repository.
+  * If you need some help just reference to [solutions repository](https://github.com/IoCHowTo/IoCTasksSolutions).
