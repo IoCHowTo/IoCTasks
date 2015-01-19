@@ -8,8 +8,6 @@ namespace UnityLifetimeManagement
         void WriteResult(int value);
     }
 
-    /// <summary>
-    /// </summary>
     public class ConsoleResultWriter : IResultWriter
     {
         public void WriteResult(int value)
@@ -20,23 +18,23 @@ namespace UnityLifetimeManagement
 
     public class FileResultWriter : IResultWriter, IDisposable
     {
-        private readonly StreamWriter m_Output;
+        private readonly StreamWriter _output;
 
         public FileResultWriter()
         {
-            m_Output = File.CreateText("output.txt");
+            _output = File.CreateText("output.txt");
         }
 
         public void WriteResult(int value)
         {
-            m_Output.WriteLine("Result: {0}", value);
+            _output.WriteLine("Result: {0}", value);
         }
 
         public void Dispose()
         {
-            if (m_Output != null)
+            if (_output != null)
             {
-                m_Output.Dispose();
+                _output.Dispose();
             }
 
             GC.SuppressFinalize(this);

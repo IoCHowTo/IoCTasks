@@ -9,11 +9,11 @@ Primary goal is to implement new class representing IoC container without actual
 
 ## How to start?
 
-1. Get familiar with project 010_IoCWithoutUnity,
-2. Identify places where introducing interfaces could be beneficial, you can get inspired by pre-existing interface IOperation,
-3. Use newly introduced interfaces wherever possible,
-4. Introduce new class called Container which will take over the responsibility of creating new objects based on type (interface name) information,
-  * You can get inspired by the class OperatorFactory,
+1. Get familiar with project 010_IoCWithoutUnity.
+2. Identify places where introducing interfaces could be beneficial, you can get inspired by pre-existing interface IOperation.
+3. Use newly introduced interfaces wherever possible.
+4. Introduce new class called Container which will take over the responsibility of creating new objects based on type (interface name) information.
+  * You can get inspired by the class OperatorFactory.
   * Don't be afraid to have a Create method returning instances of class object, you can cast them later.
 5. Locate places where objects are getting created and alter the code to create instances using instance of class Container that you just implemented.
 

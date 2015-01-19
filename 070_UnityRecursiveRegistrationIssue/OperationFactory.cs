@@ -9,18 +9,18 @@ namespace UnityRecursiveRegistrationIssue
 
     public class OperationFactory : IOperationFactory
     {
-        private readonly IUnityContainer m_Container;
+        private readonly IUnityContainer _container;
 
         public OperationFactory(IUnityContainer container)
         {
-            m_Container = container;
+            _container = container;
         }
 
         public IOperation Create(string token)
         {
             // TODO: Use the resolution via the named strategy
             // TODO: Keep in mind handling of unknown tokens
-            return m_Container.Resolve<IOperation>(token);
+            return _container.Resolve<IOperation>(token);
         }
     }
 }

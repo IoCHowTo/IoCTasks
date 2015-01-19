@@ -10,7 +10,7 @@ namespace UnityBuildUp
     
     /// <summary>
     /// </summary>
-    public class ConsoleResultWriter : IConsoleResultWriter
+    public class ResultWriters : IConsoleResultWriter
     {
         public void WriteResult(int value)
         {
