@@ -17,7 +17,7 @@
 * There is also very useful [StackExchange thread](http://programmers.stackexchange.com/a/205686) which is dedicated to the above mentioned article and is very helpful in understanding that IoC can have many forms
 * The rest of sources includes:
   * [MSDN article](http://msdn.microsoft.com/en-us/library/ff921087.aspx)
-  * Two CodeProject articles, [DI vs IoC](http://www.codeproject.com/Articles/592372/Dependency-Injection-DI-vs-Inversion-of-Control-IO) and ]IoC with examples](http://www.codeproject.com/Articles/380748/Inversion-of-Control-Overview-with-Examples)
+  * Two CodeProject articles, [DI vs IoC](http://www.codeproject.com/Articles/592372/Dependency-Injection-DI-vs-Inversion-of-Control-IO) and [IoC with examples](http://www.codeproject.com/Articles/380748/Inversion-of-Control-Overview-with-Examples)
   * two PluralSight courses, [one dedicated to IoC in general](http://www.pluralsight.com/courses/inversion-of-control) and [the other in regards of ASP.NET MVC](http://www.pluralsight.com/courses/ioc-aspdotnet-mvc4)
 * Microsoft Unity reference guide on MSDN
   * [MSDN](http://msdn.microsoft.com/en-us/library/dn178463%28v=pandp.30%29.aspx)
