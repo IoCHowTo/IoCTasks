@@ -25,9 +25,12 @@ namespace UnityChildContainers
         }
     }
 
-    // TODO: Implement your file based writer here
     public class FileResultWriter : IResultWriter
     {
-        
+        public void WriteResult(int value)
+        {
+            // TODO: Implement your file based writer here
+            throw new NotImplementedException();
+        }
     }
 }

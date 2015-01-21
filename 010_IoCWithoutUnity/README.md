@@ -1,6 +1,7 @@
 #Task 1: IoC without Microsoft Unity
 
-Primary goal is to implement new class representing IoC container without actually using Microsoft Unity or any other IoC 3rd party libraries. To achieve this goal, please review the following points:
+Primary goal is to implement new class representing IoC container without actually using Microsoft Unity or any other IoC 3rd party libraries. 
+To achieve this goal, please review the following points:
 * IoC container holds or creates instances of various classes and provides them on demand throughout the application.
   * Focus solely on object creation within this task.
 * Typically, IoC container creates new instances of objects based on some kind of type information, which is usually parameter of method responsible for creating new instances.

@@ -12,6 +12,9 @@
      * Ensures that there will be only single instance of the object which lifetime will be managed by unity container.
      * If the class implements ```IDisposable``` interface the instance will be disposed upon container disposal.
      * If any child container will be created and the dependency will not be re-registered the parent instance will be resolved.
+	 * This is per-container Singleton
+	 * If the class holds state, it would be shared by all dependent components. 
+	 * Implementation may need to be synchronized for multithreading.
   * ```ExternallyControlledLifetimeManager```
      * To be used when you register any object instance into unity container which lifetime should not be managed by unity container.
      * A typical example is a legacy singleton implementation being registered as instance into unity container.

@@ -23,7 +23,9 @@
 
 ## Extras
 
-* You can implement new operations (like minus) and see how the different places of ```Boostrapper``` class (```SetupContainer``` vs. ```SetupChildContainer``` methods) change the behavior of Microsoft Unity.
+* You can implement new operations (like minus) and 
+  see how the different places of ```Boostrapper``` class (```SetupContainer``` vs. ```SetupChildContainer``` methods) change the behavior of Microsoft Unity.
+  Make sure you change the test case in a way which would use new Minus operator.
 
 ## Solution
 
