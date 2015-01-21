@@ -25,7 +25,8 @@
 ## Extras
 
 * Try to use different override types to get familiar with them.
-* Try add another ```string``` argument to ```ConsoleAndFileResultWriter``` class constructor (for example prefix which will be written to output) and see how different override types affect the behavior.
+* Try add another ```string``` argument to ```ConsoleAndFileResultWriter``` class constructor (for example prefix which will be written to output) and see
+  how different override types affect the behavior.
 
 ## Solution
 
