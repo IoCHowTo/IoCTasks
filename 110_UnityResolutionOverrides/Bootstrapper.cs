@@ -16,7 +16,7 @@ namespace UnityResolutionOverrides
         {
             unityContainer
                 .RegisterType<IConsoleResultWriter, ConsoleResultWriters>()
-                .RegisterType<IConsoleAndFileResultWriter, ConsoleAndFileResultWriter>()
+                .RegisterType<IConsoleAndFileResultWriter, ConsoleAndFileResultWriter>(new ContainerControlledLifetimeManager())
                 .RegisterType<ICalculator, Calculator>()
                 .RegisterType<IOperationFactory, OperationFactory>()
                 .RegisterType<IOperationPlus, Plus>();
