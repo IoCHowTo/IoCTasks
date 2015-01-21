@@ -2,7 +2,7 @@
 
 ## BuildUp method
 
-* In some situations it is better to instantiate a class manually in the code via ```new``` operator.
+* In some situations it is necessary to instantiate a class manually in the code via ```new``` operator.
   * For example when specifying some argument like file name etc.
 * But the class itself still can have dependencies which can be resolved via IoC container.
 * Microsoft Unity supports this scenario via its ```IUnityContainer.BuildUp()``` method:

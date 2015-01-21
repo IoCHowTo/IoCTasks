@@ -16,10 +16,10 @@ namespace UnityChildContainers
             {
                 Bootstrapper.SetupContainer(container);
                 
-                PerformCalculation(args, container);
-
                 // TODO: This is the place where your child container should be created, initialized
-                // TODO: and PeformCalculation method should be invoked
+                // TODO: and PeformCalculation method should be invoked on child container instead.
+
+                PerformCalculation(args, container);
             }
         }
 
