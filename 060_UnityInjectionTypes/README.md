@@ -33,6 +33,7 @@
 2. Get familiar with project 060_UnityInjectionTypes
 3. Check ```OperationFactory``` class
 4. Resolve class fields using the outlined approach
+5. Also please check the order in which are dependencies resolved.
 
 ## Extras
 
