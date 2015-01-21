@@ -2,7 +2,8 @@
 
 ## Motivation
 
-* Provide help to guys on the team to understand the topic
+* This is intended to be 'hands-on experience' course on the topic of Inversion of Control/Depedency Injection.
+* Provide help to guys on the team to understand the topic.
 * Provide a set of tasks which will allow to understand the basics, such as:
   * Inversion Of Control principle
   * Microsoft Unity IoC Container 
@@ -33,4 +34,4 @@
 * For additional information look into the Microsoft Unity documentation (goal of this project is not to provide reference guide to MS Unity API).
 * Simply clone this project (or download it as a .ZIP file) and attempt to solve all individual tasks.
   * If you need some help just reference to [solutions repository](https://github.com/IoCHowTo/IoCTasksSolutions).
-* Open the solution in VS2012 and compile it. The compilation would download Unity libraries from NuGet.
+* Open the solution in VS2012+ and compile it. The compilation would download dependencies from Nuget (such as Microsoft Unity).
