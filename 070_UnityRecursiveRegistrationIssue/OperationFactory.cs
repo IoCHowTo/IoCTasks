@@ -1,4 +1,5 @@
-﻿using Microsoft.Practices.Unity;
+﻿using System;
+using Microsoft.Practices.Unity;
 
 namespace UnityRecursiveRegistrationIssue
 {
@@ -18,8 +19,12 @@ namespace UnityRecursiveRegistrationIssue
 
         public IOperation Create(string token)
         {
-            // TODO: Use the resolution via the named strategy
-            // TODO: Keep in mind handling of unknown tokens
+            // let's validate the input here
+            if (!_container.IsRegistered<IOperation>(token))
+            {
+                throw new InvalidOperationException("Unsupported operation " + token);
+            }
+
             return _container.Resolve<IOperation>(token);
         }
     }
