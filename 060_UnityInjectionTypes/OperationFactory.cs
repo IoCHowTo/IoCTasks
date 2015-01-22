@@ -22,9 +22,9 @@ namespace UnityInjectionTypes
         {
             switch (token)
             {
-                case "+":
-                    return _minus;
                 case "-":
+                    return _minus;
+                case "+":
                     return _plus;
                 case "/":
                     return _div;

@@ -8,7 +8,7 @@ namespace UnityInjectionTypes
         {
             if (args.Length == 0)
             {
-                args = new[] { "10", "+", "20", "+", "30" };
+                args = new[] { "10", "-", "20", "+", "30", "/", "2" };
             }
 
             using (var container = new UnityContainer())

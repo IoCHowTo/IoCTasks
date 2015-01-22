@@ -39,7 +39,7 @@
     {
         public int Evaluate(int a, int b)
         {
-            return a - b;
+            return a / b;
         }
     }
 }
