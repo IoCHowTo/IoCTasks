@@ -42,6 +42,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "120_UnityContainerDisposalH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "130_UnityDependencyOfRootOnChild", "130_UnityDependencyOfRootOnChild\130_UnityDependencyOfRootOnChild.csproj", "{F33775E9-114F-4779-96D9-04FDDAEF6E69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "090_UnitTestingWithoutIoC", "090_UnitTestingWithoutIoC\090_UnitTestingWithoutIoC.csproj", "{56684693-2461-4C44-8774-06D8A531F47E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "140_UnitTestingWithIoC", "140_UnitTestingWithIoC\140_UnitTestingWithIoC.csproj", "{FB5D0DC6-224B-4CD1-9BCA-28B19878B228}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,6 +100,14 @@ Global
 		{F33775E9-114F-4779-96D9-04FDDAEF6E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F33775E9-114F-4779-96D9-04FDDAEF6E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F33775E9-114F-4779-96D9-04FDDAEF6E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56684693-2461-4C44-8774-06D8A531F47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56684693-2461-4C44-8774-06D8A531F47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56684693-2461-4C44-8774-06D8A531F47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56684693-2461-4C44-8774-06D8A531F47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5D0DC6-224B-4CD1-9BCA-28B19878B228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5D0DC6-224B-4CD1-9BCA-28B19878B228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5D0DC6-224B-4CD1-9BCA-28B19878B228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5D0DC6-224B-4CD1-9BCA-28B19878B228}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
