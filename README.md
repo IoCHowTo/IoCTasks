@@ -30,6 +30,10 @@ This solution contains a set of projects which should help you understand to fol
     and [the other in regards of ASP.NET MVC](http://www.pluralsight.com/courses/ioc-aspdotnet-mvc4)
 * Microsoft Unity reference guide on MSDN
   * [MSDN](http://msdn.microsoft.com/en-us/library/dn178463%28v=pandp.30%29.aspx)
+* NUnit unit testing framework:
+  * [NUnit](http://www.nunit.org)
+* Moq mocking framework
+  * [Moq](https://github.com/Moq/moq4)
 
 ## How to use projects
 
