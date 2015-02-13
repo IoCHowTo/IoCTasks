@@ -1,14 +1,18 @@
 # IoCTasks
 
-## Motivation
+## Intro
 
-* This is intended to be 'hands-on experience' course on the topic of Inversion of Control/Depedency Injection.
-* Provide help to guys on the team to understand the topic.
-* Provide a set of tasks which will allow to understand the basics, such as:
-  * Inversion Of Control principle
-  * Microsoft Unity IoC Container 
-  * Differences between polymorphism and dependency injection
-* Sample solutions for all tasks are provided separately for your reference
+This solution contains a set of projects which should help you understand to following topics:
+
+* IoC/DI (Inversion Of Control/Dependency Injection principles).
+* IoC containers.
+* Microsoft Unity IoC container.
+* It also touches on highly related topic which is Unit testing.
+
+## Motivation
+* Provide 'hands-on experience' course on the topics above in form of small coding tasks.
+* Help to guys on the team to understand the topic.
+* Deliver sample solutions for all tasks which can serve as a reference with intent:
   * At first try to resolve tasks on your own. 
   * If you will get stuck feel free use appropriate sample solution to unblock yourself.
   * After you solved it on your own, look at the sample solution to make sure we understand it in the same way.
@@ -35,3 +39,5 @@
 * Simply clone this project (or download it as a .ZIP file) and attempt to solve all individual tasks.
   * If you need some help just reference to [solutions repository](https://github.com/IoCHowTo/IoCTasksSolutions).
 * Open the solution in VS2012+ and compile it. The compilation would download dependencies from Nuget (such as Microsoft Unity).
+* If you are aware of some interesting challenge in the area feel free to propose a sample tasks with sample solution
+  in form of pull request.
