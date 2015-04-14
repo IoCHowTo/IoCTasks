@@ -10,7 +10,7 @@
 
   This has some related issues:
 
-  * If you resolve the parent depedency the injected reference depedens on used
+  * If you resolve the parent depedency then the injected reference depedens on used
     child container and its configuration.
   * In the case that such depedency is a singleton the injected dependency will
     come from first used child container.
