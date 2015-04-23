@@ -28,6 +28,7 @@ This solution contains a set of projects which should help you understand to fol
     and [IoC with examples](http://www.codeproject.com/Articles/380748/Inversion-of-Control-Overview-with-Examples)
   * two PluralSight courses, [one dedicated to IoC in general](http://www.pluralsight.com/courses/inversion-of-control) 
     and [the other in regards of ASP.NET MVC](http://www.pluralsight.com/courses/ioc-aspdotnet-mvc4)
+  * short article about [introducing IoC into existing codebases] (http://kozmic.net/2012/10/23/ioc-container-solves-a-problem-you-might-not-have-but-its-a-nice-problem-to-have/)
 * Microsoft Unity reference guide on MSDN
   * [MSDN](http://msdn.microsoft.com/en-us/library/dn178463%28v=pandp.30%29.aspx)
 * NUnit unit testing framework:
