@@ -15,7 +15,7 @@ namespace IoCWithUnity
         public static void SetupContainer(IUnityContainer unityContainer)
         {
             // TODO: Register your dependencies here
-            // unityContainer.RegisterType<IInterface, Implementor>(...)
+            // unityContainer.RegisterType<IInterface, Implementor>();
         }
     }
 
