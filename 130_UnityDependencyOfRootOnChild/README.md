@@ -6,13 +6,13 @@
   anything on parent container which is perfectly valid.
 * Unfortunately it is possible to get into oposite situation when you setup
   a dependency in parent container which will get injected a child container
-  depedency.
+  dependency.
 
   This has some related issues:
 
-  * If you resolve the parent depedency then the injected reference depedens on used
+  * If you resolve the parent dependency then the injected reference depends on used
     child container and its configuration.
-  * In the case that such depedency is a singleton the injected dependency will
+  * In the case that such dependency is a singleton the injected dependency will
     come from first used child container.
   * And even more - if the dependency in child container is a disposable object
     the injected object may become invalid during the child container disposal.
