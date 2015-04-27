@@ -14,13 +14,12 @@ namespace UnityDependencyOfRootOnChild
 
                 var factory = new TaskFactory();
 
-                Task.WaitAll(new []
-                {
-                    factory.StartNew(() => ProcessOnBackGround(container, "handler1")),
-                    factory.StartNew(() => ProcessOnBackGround(container, "handler2")),
-                    factory.StartNew(() => ProcessOnBackGround(container, "handler3")),
-                    factory.StartNew(() => ProcessOnBackGround(container, "handler4")),
-                });
+                Task.WaitAll(
+                    factory.StartNew(() => ProcessOnBackGround(container, "handler1")), 
+                    factory.StartNew(() => ProcessOnBackGround(container, "handler2")), 
+                    factory.StartNew(() => ProcessOnBackGround(container, "handler3")), 
+                    factory.StartNew(() => ProcessOnBackGround(container, "handler4"))
+                    );
 
                 Console.ReadLine();
             }
