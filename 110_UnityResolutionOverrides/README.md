@@ -11,7 +11,7 @@
   * ```PropertyOverride``` for a property dependency override.
 * An override is by default applied to all dependencies being used during the single resolution:
   * Use ```OnType``` method to limit scope of override to particular type only.
-* It is good to use this feature very carefully and use it just in specific cases:
+* It is *good* to use this feature very carefully and use it just in specific cases:
   * You are basically introducing tight coupling (especially when using overrides based on parameter names).
 * It is better not to spread it widely in the codebase and instead to always use it in factories only.
 
