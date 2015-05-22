@@ -1,4 +1,5 @@
-#Task 13: Microsoft Unity And Invalid Dependencies Between Parent And Child Container
+#Task 13: Microsoft Unity And Invalid Dependencies Between Parent And Child 
+Container
 
 ## Dependencies between parent and child container
 
@@ -17,7 +18,8 @@
   * And even more - if the dependency in child container is a disposable object
     the injected object may become invalid during the child container disposal.
 
-* You may check [https://github.com/voloda/UnityRegistrationValidator](https://github.com/voloda/UnityRegistrationValidator)
+* You may check 
+  [https://github.com/voloda/UnityRegistrationValidator](https://github.com/voloda/UnityRegistrationValidator)
   to see how you can try prevent this.
 
 ## How to start?
