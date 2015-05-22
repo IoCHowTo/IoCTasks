@@ -7,7 +7,8 @@
   * Dependencies are specified as parameters of the constructor.
   * If multiple constructors exist on the class by default the constructor with 
     most dependencies is used.
-  * Or you can define a constructor by decorating it with ```InjectionConstructorAttribute``` .
+  * Or you can define a constructor by decorating it with 
+    ```InjectionConstructorAttribute``` .
 
 ### Property injection
 
