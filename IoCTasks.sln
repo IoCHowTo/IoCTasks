@@ -46,6 +46,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "090_UnitTestingWithoutIoC",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "140_UnitTestingWithIoC", "140_UnitTestingWithIoC\140_UnitTestingWithIoC.csproj", "{FB5D0DC6-224B-4CD1-9BCA-28B19878B228}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "150_UnityRegistrationDifferences", "150_UnityRegistrationDifferences\150_UnityRegistrationDifferences.csproj", "{BF748F32-C277-4E18-A9DC-C8B0342656D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,8 +110,15 @@ Global
 		{FB5D0DC6-224B-4CD1-9BCA-28B19878B228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB5D0DC6-224B-4CD1-9BCA-28B19878B228}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB5D0DC6-224B-4CD1-9BCA-28B19878B228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF748F32-C277-4E18-A9DC-C8B0342656D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF748F32-C277-4E18-A9DC-C8B0342656D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF748F32-C277-4E18-A9DC-C8B0342656D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF748F32-C277-4E18-A9DC-C8B0342656D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
 	EndGlobalSection
 EndGlobal
