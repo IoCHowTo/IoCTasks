@@ -201,6 +201,47 @@ namespace UnityRegistrationDifferences
             Assert.IsInstanceOf<LocalService>(instance);
             Assert.IsInstanceOf<LocalService>(instance2);
         }
+
+
+        [Test]
+        public void Test13()
+        {
+            var container = new UnityContainer();
+            container.RegisterType<IService, RemoteService>();
+
+            container.RegisterType<IService>(new InjectionFactory(c => c.Resolve<LocalService>()));
+
+            var instance = container.Resolve<IService>();
+
+            // This is unexpected behavior
+            Assert.IsInstanceOf<RemoteService>(instance);
+        }
+
+        [Test]
+        public void Test14()
+        {
+            var container = new UnityContainer();
+            container.RegisterType<IService>(new InjectionFactory(c => c.Resolve<RemoteService>()));
+
+            container.RegisterType<IService>(new InjectionFactory(c => c.Resolve<LocalService>()));
+
+            var instance = container.Resolve<IService>();
+
+            Assert.IsInstanceOf<LocalService>(instance);
+        }
+
+        [Test]
+        public void Test15()
+        {
+            var container = new UnityContainer();
+            container.RegisterType<IService>(new InjectionFactory(c => c.Resolve<LocalService>()));
+
+            container.RegisterType<IService, LocalService>();
+
+            var instance = container.Resolve<IService>();
+
+            Assert.IsInstanceOf<LocalService>(instance);
+        }
     }
 
     public interface IService2
