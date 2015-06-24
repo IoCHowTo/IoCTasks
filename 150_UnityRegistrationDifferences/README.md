@@ -13,3 +13,4 @@
 * There is no expected solution here. The purpose of this task is to provide
   a quick playground for testing registrations and perhaps provide an overview
   of various types of registrations and re-registrations.
+* Be aware of non-obvious behavior in the ```Test13()```.
